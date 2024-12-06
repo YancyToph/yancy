@@ -1,0 +1,121 @@
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 3;
+    padding: 0;
+    color: #ffffff;
+    background: linear-gradient(120deg, #ff6f61, #ffcc00);
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styles */
+div {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ff6f61;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffefd5;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ff6f61;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+}
+
+button {
+    background-color: #ffffff;
+    color: #ff6f61;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
